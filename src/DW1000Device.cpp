@@ -101,7 +101,7 @@ String DW1000Device::getShortAddress(){
 */
 
 uint16_t DW1000Device::getShortAddress() {
-	return _shortAddress[1]*256+_shortAddress[0];
+	return _shortAddress[0]*256+_shortAddress[1];
 }
 
 
